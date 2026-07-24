@@ -628,6 +628,20 @@ export const content = {
         },
       },
     },
+    journal: {
+      eyebrow: "05 · Ship's log",
+      titleA: "Journal",
+      titleB: "of the crossing.",
+      paragraph:
+        "Essays, operation notes and logbook entries. Here Rota do Sol writes as it walks, in partnership with researchers, communities and the international team.",
+      searchPlaceholder: "Search the journal…",
+      searchButton: "Search",
+      stub: {
+        label: "◐ provisional stub",
+        title: "Coming soon:",
+        text: "this journal will be fed directly by the WordPress posts, same layout, dynamic content. The current texts are placeholders.",
+      },
+    },
     footer: {
       tagline:
         "A Latin American cultural and regenerative ecosystem connecting ancestrality, film, art, bioeconomy and territorial impact.",
@@ -1265,6 +1279,20 @@ export const content = {
         },
       },
     },
+    journal: {
+      eyebrow: "05 · Diário de bordo",
+      titleA: "Diário",
+      titleB: "da travessia.",
+      paragraph:
+        "Ensaios, notas de operação e registros de bordo. Aqui a Rota do Sol escreve enquanto caminha, em parceria com pesquisadores, comunidades e a equipe internacional.",
+      searchPlaceholder: "Buscar no diário…",
+      searchButton: "Buscar",
+      stub: {
+        label: "◐ stub provisório",
+        title: "Em breve:",
+        text: "este diário será alimentado direto pelos posts do WordPress, mesmo layout, conteúdo dinâmico. Os textos atuais são exemplos.",
+      },
+    },
     footer: {
       tagline:
         "Um ecossistema cultural e regenerativo latino-americano que conecta ancestralidade, cinema, arte, bioeconomia e impacto territorial.",
@@ -1900,6 +1928,20 @@ export const content = {
             "Cumplimiento LGPD · GDPR · UK GDPR",
           ],
         },
+      },
+    },
+    journal: {
+      eyebrow: "05 · Diario de a bordo",
+      titleA: "Diario",
+      titleB: "de la travesía.",
+      paragraph:
+        "Ensayos, notas de operación y registros de a bordo. Aquí Rota do Sol escribe mientras camina, en alianza con investigadores, comunidades y el equipo internacional.",
+      searchPlaceholder: "Buscar en el diario…",
+      searchButton: "Buscar",
+      stub: {
+        label: "◐ borrador provisional",
+        title: "Próximamente:",
+        text: "este diario se alimentará directamente de las publicaciones de WordPress, mismo diseño, contenido dinámico. Los textos actuales son ejemplos.",
       },
     },
     footer: {

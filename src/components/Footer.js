@@ -1,6 +1,5 @@
 "use client";
 
-import SunIcon from "./SunIcon";
 import { useLocale } from "@/lib/locale-context";
 
 export default function Footer() {
@@ -9,13 +8,10 @@ export default function Footer() {
     <footer className="bg-deep-green">
       <div className="mx-auto max-w-[1440px] px-6 md:px-10 py-16 grid md:grid-cols-[1.4fr_1fr_1fr] gap-12">
         <div>
-          <a href="#top" className="flex items-center gap-3">
-            <span className="flex h-10 w-10 items-center justify-center rounded-full bg-gold text-deep-green">
-              <SunIcon className="h-5 w-5" />
-            </span>
-            <span className="font-semibold uppercase tracking-wide text-cream-light">
-              Rota do Sol
-            </span>
+          <a href="#top" className="block text-[40px] md:text-[52px] leading-[0.95] font-bold text-cream-light">
+            Rota
+            <br />
+            do <span className="text-gold">Sol</span>
           </a>
           <p className="mt-5 max-w-sm text-sm text-cream-light/60 leading-relaxed">
             {t.footer.tagline}

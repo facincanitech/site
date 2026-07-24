@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import SunIcon from "./SunIcon";
 import { locales } from "@/lib/content";
 import { useLocale } from "@/lib/locale-context";
 
@@ -16,18 +15,14 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-cream-light/95 backdrop-blur border-b border-ink/10">
       <div className="mx-auto max-w-[1440px] px-6 md:px-10 h-20 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-3 shrink-0">
-          <span className="flex h-11 w-11 items-center justify-center rounded-full bg-gold text-deep-green">
-            <SunIcon className="h-6 w-6" />
-          </span>
-          <span className="leading-tight">
-            <span className="block font-mono-label text-[10px] uppercase text-terracotta">
-              Rota
-            </span>
-            <span className="block font-semibold uppercase tracking-wide text-deep-green text-sm">
-              do Sol
-            </span>
-          </span>
+        <Link href="/" className="shrink-0 flex items-center" aria-label="Rota do Sol, home">
+          <img
+            src="/images/brand/logo.webp"
+            alt="Rota do Sol"
+            width={160}
+            height={160}
+            className="h-10 md:h-12 lg:h-14 w-auto block"
+          />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-7">

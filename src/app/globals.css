@@ -22,14 +22,20 @@
   --color-gold-light: var(--color-gold-light);
   --color-terracotta: var(--color-terracotta);
   --color-ink: var(--color-ink);
-  --font-sans: var(--font-sora);
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-archivo);
   --font-mono: var(--font-jetbrains);
 }
 
 body {
   background: var(--color-cream);
   color: var(--color-ink);
-  font-family: var(--font-sora), Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter), Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-archivo), Arial, Helvetica, sans-serif;
+  letter-spacing: -0.02em;
 }
 
 .font-mono-label {
