@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  --color-cream: #f3ecdc;
+  --color-cream-light: #f8f3e8;
+  --color-deep-green: #16261b;
+  --color-deep-green-2: #1f3626;
+  --color-forest: #24402c;
+  --color-gold: #e9b23c;
+  --color-gold-light: #f2c766;
+  --color-terracotta: #c05a35;
+  --color-ink: #1b1b16;
+}
+
+@theme inline {
+  --color-cream: var(--color-cream);
+  --color-cream-light: var(--color-cream-light);
+  --color-deep-green: var(--color-deep-green);
+  --color-deep-green-2: var(--color-deep-green-2);
+  --color-forest: var(--color-forest);
+  --color-gold: var(--color-gold);
+  --color-gold-light: var(--color-gold-light);
+  --color-terracotta: var(--color-terracotta);
+  --color-ink: var(--color-ink);
+  --font-sans: var(--font-sora);
+  --font-mono: var(--font-jetbrains);
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sora), Arial, Helvetica, sans-serif;
+}
+
+.font-mono-label {
+  font-family: var(--font-jetbrains), monospace;
+  letter-spacing: 0.08em;
+}
