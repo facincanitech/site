@@ -471,160 +471,83 @@ export const content = {
       },
     },
     investors: {
+      hero: {
+        eyebrow: "Series A · Global Expansion",
+        headline: "Investing in the Infrastructure of Cultural Memory:",
+        headlineHighlight: "A Multi-Platform IP & Wellness Ecosystem",
+        subheadline:
+          "A bridge between Latin American ancestral intelligence, modern science, and cinematic storytelling.",
+        videoLabel: "Watch the teaser",
+        videoNote: "2-minute investor teaser · coming soon",
+      },
+      pillars: {
+        eyebrow: "01 · The Business Ecosystem",
+        titleA: "Four pillars.",
+        titleB: "One IP engine.",
+        paragraph:
+          "Rota do Sol is not a single product, it's an interconnected ecosystem where culture, science, education and commerce compound into one another.",
+        items: [
+          { index: "01", title: "Cinematic IP", subtitle: "Universo Neta", text: "Films and series that build a proprietary cinematic universe rooted in Afro-indigenous storytelling, expanding into streaming and licensed formats." },
+          { index: "02", title: "Herbal Science & Apothecary", subtitle: "Physical product line", text: "A physical line of botanical wellness products, bridging ancestral plant knowledge with modern formulation science." },
+          { index: "03", title: "EdTech & Platform", subtitle: "Courses & certification", text: "Courses, certifications and a digital platform teaching ancestral knowledge alongside organic science, built for global reach." },
+          { index: "04", title: "Licensing & Global Expansion", subtitle: "Brand & partnerships", text: "Brand licensing to museums, health and education partners, extending the IP into new markets and formats." },
+        ],
+      },
       market: {
-        eyebrow: "01 · Market opportunity",
-        titleA: "Where the Route",
-        titleB: "positions itself.",
+        eyebrow: "02 · Market Opportunity & Financials",
+        title: "A category convergence.",
         paragraph:
-          "Four vectors are converging now, {terracotta:impact capital}, {terracotta:regenerative tourism}, {terracotta:Afro-indigenous narrative} and a UK ↔ Brazil bridge. Rota do Sol is positioned at the intersection of the four.",
-        cards: [
-          { index: "01", title: "Impact capital", text: "Double-digit annual global growth in funds with a regeneration / climate / social inclusion thesis." },
-          { index: "02", title: "Regenerative tourism", text: "An emerging category, premium travelers willing to pay for experiences with measurable positive footprint." },
-          { index: "03", title: "Afro-indigenous narrative", text: "Under-explored by serious institutional vehicles. Growing demand for authentic, ethical curation." },
-          { index: "04", title: "UK ↔ Brazil bridge", text: "Access to British and European capital via the 'Oh Look, It's a Parrot' partnership (Stephen Willis)." },
+          "Wellness, education and streaming IP are each massive on their own. Rota do Sol sits at the intersection of all three.",
+        tam: [
+          { label: "Global Wellness", value: "$6.8T" },
+          { label: "EdTech", value: "$420B" },
+          { label: "Streaming IP", value: "$1.1T" },
+        ],
+        revenueTitle: "5-year revenue projection",
+        revenue: [
+          { year: "Year 1", value: 1.2 },
+          { year: "Year 2", value: 4.8 },
+          { year: "Year 3", value: 12.5 },
+          { year: "Year 4", value: 28 },
+          { year: "Year 5", value: 55 },
+        ],
+        revenueNote: "Figures in USD millions.",
+        ebitda: { label: "Target EBITDA margin by Year 5", value: "32%–41%" },
+      },
+      thesis: {
+        eyebrow: "03 · Investment Thesis & Traction",
+        title: "The ask.",
+        ask: { label: "Raising", value: "$3.5M", sub: "Seed / Series A" },
+        allocationTitle: "Use of funds",
+        allocation: [
+          { label: "Content & IP Production", value: 35, color: "gold" },
+          { label: "Product Development & Supply Chain", value: 25, color: "teal" },
+          { label: "Platform Technology", value: 20, color: "terracotta" },
+          { label: "Global Distribution & Licensing", value: 15, color: "blue" },
+          { label: "Operations", value: 5, color: "magenta" },
+        ],
+        tractionTitle: "Traction signals",
+        traction: [
+          "International presence already live (rotadosol.uk)",
+          "Growing proprietary IP portfolio (film, brand, cultural archive)",
+          "Apothecary product line in prototype stage",
+          "Afro-indigenous leadership with direct community access",
         ],
       },
-      revenue: {
-        eyebrow: "02 · Revenue model",
-        titleA: "Five streams.",
-        titleB: "One single foundation.",
+      dataroom: {
+        eyebrow: "04 · Data Room & Next Steps",
+        title: "Let's talk.",
         paragraph:
-          "Diversification is strategic defense. {gold:Five independent streams} anchored on the same platform, if one falls, the others sustain the project while the system readjusts.",
-        streams: [
-          { index: "01", tag: "B2C, high margin", title: "Crossings", text: "Premium experiential tourism with a high ticket and controlled carrying capacity." },
-          { index: "02", tag: "B2C, recurring", title: "Lore Herbal Pharmacy", text: "Natural product line with a recurring audience and own channels + selected B2B." },
-          { index: "03", tag: "B2B, long contracts", title: "ESG / CSR Partnerships", text: "Companies that need auditable impact buy multi-year packages anchored in GRI metrics." },
-          { index: "04", tag: "B2B / institutional", title: "Content licensing", text: "The Cultural Library licenses documentaries and series to platforms, museums and cultural institutions." },
-          { index: "05", tag: "Local operation", title: "Territorial Stations", text: "Each station operates its own revenue (lodging, training, consulting) integrated into the network." },
-        ],
-        synthesis: {
-          label: "Synthesis",
-          title: "Revenue uncorrelated with a single market climate.",
-          text: "Premium B2C + long B2B contracts + recurring products + institutional licensing + local operation. Each stream answers to a distinct economic cycle.",
-        },
-      },
-      scalability: {
-        eyebrow: "03 · Scalability",
-        titleA: "Grows without",
-        titleB: "disfiguring.",
-        paragraph:
-          "Scale in territorial projects usually unravels the cultural fabric that sustains the product. Here, the opposite is designed: {green:each new node strengthens the network} without proportional cost.",
-        items: [
-          { title: "Replicable model", text: "Standardized Territorial Station, operational, financial and cultural playbook reused on every new front." },
-          { title: "Decreasing marginal cost", text: "The digital platform absorbs new territories without proportional cost. Each new station adds revenue > cost." },
-          { title: "Network effect", text: "Each newly connected community expands the cultural archive, the botanical stock and the crossing offer." },
-          { title: "International leap", text: "The UK bridge opens the European market with no need for initial physical presence, remote fundraising with delivery in Brazil." },
-        ],
-      },
-      esg: {
-        eyebrow: "04 · ESG impact",
-        titleA: "Impact",
-        titleB: "auditable.",
-        titleC: "Published.",
-        paragraph:
-          "Every metric is {green:third-party verifiable}, published in GRI format and updated periodically. No greenwashing, no loose narrative, only what withstands an audit.",
-        columns: [
-          {
-            letter: "E",
-            color: "green",
-            title: "Environmental",
-            items: [
-              "Hectares regenerated per territory",
-              "Species recovered and biodiversity tracked",
-              "Water cycles restored",
-              "Carbon avoided / sequestered, documented",
-            ],
-          },
-          {
-            letter: "S",
-            color: "terracotta",
-            title: "Social",
-            items: [
-              "Direct territorial income for guardians",
-              "Afro-indigenous representation in governance",
-              "Families and communities benefited (open ledger)",
-              "Access to health, education and mobility through the stations",
-            ],
-          },
-          {
-            letter: "G",
-            color: "gold",
-            title: "Governance",
-            items: [
-              "Mixed council with community ethical veto",
-              "Auditable metrics in GRI format",
-              "Third-party verification and financial transparency",
-              "Bioprospecting policy and free, prior and informed consent",
-            ],
-          },
-        ],
-        note: "Reporting aligned with the Global Reporting Initiative (GRI). Independent-entity audit plan under construction, with semi-annual publication via the ESG Portal.",
-      },
-      roadmap: {
-        eyebrow: "05 · Roadmap",
-        titleA: "Five years.",
-        titleB: "Five milestones.",
-        paragraph:
-          "A public execution calendar. Each milestone has {gold:observable deliverables} and its own indicators, investors track progress without depending on closed reports.",
-        milestones: [
-          { index: "01", period: "2026 · H1", title: "Institutional foundation", text: "Launch of the multilingual platform (PT · ES · EN), constitution of the council and opening of ESG Portal v1.", status: "In progress", color: "gold" },
-          { index: "02", period: "2026 · H2", title: "First Territorial Station", text: "Operational pilot station in Brazil with pilot crossings and a documented replicable protocol.", status: "Next", color: "gold-outline" },
-          { index: "03", period: "2027", title: "Commercial, Lore Pharmacy", text: "Launch of the first botanical line with ANVISA diligence completed and a direct sales channel.", status: "Planned", color: "terracotta" },
-          { index: "04", period: "2028", title: "International scale", text: "Active UK operation, entry into the European market via licensing and multi-year ESG partnerships.", status: "Planned", color: "terracotta-outline" },
-          { index: "05", period: "2029-30", title: "LATAM network", text: "Progressive rollout of Stations across Latin America (Colombia → Peru → Ecuador → Bolivia) under the same playbook.", status: "Vision", color: "muted" },
-        ],
-      },
-      partners: {
-        eyebrow: "05 · Investors & Partnerships",
-        titleA: "Where the Route meets",
-        titleB: "the world.",
-        paragraph:
-          "A dedicated area for sponsors, grants, press, international partners and fundraising. Here we present Rota do Sol as it is: an international cultural project, with clear governance, real metrics and an ESG agenda that is not cosmetic, it is operational.",
-        columns: [
-          { title: "Sponsors", text: "Brands that want to anchor capital in verifiable impact." },
-          { title: "Grants", text: "Public programmes and foundations with technical and ESG criteria." },
-          { title: "Press", text: "Cultural, environmental and social-innovation journalism." },
-          { title: "International partners", text: "UK · EU · LATAM organisations in ethical reciprocity." },
-          { title: "Fundraising", text: "Patient capital, blended finance and institutional giving." },
-        ],
-      },
-      expansion: {
-        eyebrow: "10 · Expansion",
-        titleA: "From where",
-        titleB: "to where",
-        titleC: "the route grows.",
-        paragraph:
-          "Expansion by nuclei, Route Stations, not franchising. Each new base goes through six months of immersion before operating.",
-        items: [
-          { year: "2026", status: "Underway", title: "BR consolidation", text: "Three active stations in Brazil; first thesis open to institutional partners.", color: "terracotta" },
-          { year: "2027", status: "Planned", title: "UK bridge active", text: "Continuous operation between Bristol/London and Brasília. Cultural events, recurring fundraising, institutional ambassadors.", color: "gold" },
-          { year: "2028", status: "Planned", title: "LATAM entry", text: "First station in Colombia, opening the bridge with the Latin American Afro-indigenous network. Supervised replication of the playbook.", color: "gold" },
-          { year: "2029", status: "Vision", title: "Regional network", text: "Peru and Ecuador as next nodes. Start of a formal guardian-training programme.", color: "terracotta" },
-          { year: "2030", status: "Vision", title: "Ethical scale", text: "Five stations across LATAM operating with comparable indicators. Public annual report.", color: "green" },
-        ],
-      },
-      governance: {
-        eyebrow: "11 · Governance",
-        titleA: "Who decides.",
-        titleB: "With whom. Why.",
-        paragraph:
-          "Governance is not an org chart, it's decision practice. Rota do Sol operates with three articulated bodies and formal accountability mechanisms.",
-        bodies: [
-          { label: "Strategic decision", color: "terracotta", title: "Guardianship", text: "Led by Neta Honorata Maíta. Sets direction, validates agreements and answers for the project's institutional integrity." },
-          { label: "Mandatory consultative vote", color: "gold", title: "Council of Communities", text: "Elected representatives from each partner community. Vote on itineraries, calendar, image use and funding priorities." },
-          { label: "Technical and ethical oversight", color: "green", title: "Council of Partnerships", text: "Institutional mentors (legal, ESG, anthropology, fundraising). Quarterly meetings; public minutes for contributing partners." },
-        ],
-        compliance: {
-          label: "◆ Compliance",
-          leftItems: [
-            "Anti-fraud, anti-bribery and anti-money-laundering policy",
-            "Confidential integrity channel: rotadosolestacaobr@gmail.com",
-            "Financial statements audited annually",
-          ],
-          rightItems: [
-            "Zero tolerance for child and slavery-like labour",
-            "LGPD · GDPR · UK GDPR compliance",
-          ],
+          "This area is for funds, family offices and strategic partners evaluating the round. Request access to review the full deck, financial model and legal structure.",
+        ctaTeaser: "Download Executive Teaser (PDF)",
+        ctaDataRoom: "Request Access to Data Room",
+        ctaSchedule: "Schedule Meeting with Founders",
+        form: {
+          name: "Full name",
+          fund: "Fund / Company",
+          email: "Email",
+          submit: "Request access",
+          note: "We'll follow up by email within 2 business days.",
         },
       },
     },
@@ -1122,160 +1045,83 @@ export const content = {
       },
     },
     investors: {
+      hero: {
+        eyebrow: "Série A · Expansão Global",
+        headline: "Investindo na Infraestrutura da Memória Cultural:",
+        headlineHighlight: "Um Ecossistema Multi-Plataforma de PI e Bem-Estar",
+        subheadline:
+          "Uma ponte entre a inteligência ancestral latino-americana, a ciência moderna e a narrativa cinematográfica.",
+        videoLabel: "Assistir ao teaser",
+        videoNote: "Teaser de 2 minutos para investidores · em breve",
+      },
+      pillars: {
+        eyebrow: "01 · O Ecossistema de Negócios",
+        titleA: "Quatro pilares.",
+        titleB: "Um motor de PI.",
+        paragraph:
+          "A Rota do Sol não é um produto único, é um ecossistema interconectado onde cultura, ciência, educação e comércio se potencializam mutuamente.",
+        items: [
+          { index: "01", title: "PI Cinematográfica", subtitle: "Universo Neta", text: "Filmes e séries que constroem um universo cinematográfico proprietário enraizado em narrativas afro-indígenas, expandindo para streaming e formatos licenciados." },
+          { index: "02", title: "Ciência Herbária & Farmácia", subtitle: "Linha física de produtos", text: "Uma linha física de produtos botânicos de bem-estar, unindo o conhecimento ancestral das plantas à ciência moderna de formulação." },
+          { index: "03", title: "EdTech & Plataforma", subtitle: "Cursos & certificações", text: "Cursos, certificações e uma plataforma digital que ensina conhecimento ancestral ao lado da ciência orgânica, construída para alcance global." },
+          { index: "04", title: "Licenciamento & Expansão Global", subtitle: "Marca & parcerias", text: "Licenciamento de marca para museus, parceiros de saúde e educação, estendendo a PI para novos mercados e formatos." },
+        ],
+      },
       market: {
-        eyebrow: "01 · Oportunidade de mercado",
-        titleA: "Onde a Rota",
-        titleB: "se posiciona.",
+        eyebrow: "02 · Oportunidade de Mercado & Financeiro",
+        title: "Uma convergência de categorias.",
         paragraph:
-          "Quatro vetores convergem agora, {terracotta:capital de impacto}, {terracotta:turismo regenerativo}, {terracotta:narrativa Afro-indígena} e ponte UK ↔ BR. A Rota do Sol está posicionada na intersecção dos quatro.",
-        cards: [
-          { index: "01", title: "Capital de impacto", text: "Crescimento global anual de dois dígitos em fundos com tese de regeneração / clima / inclusão social." },
-          { index: "02", title: "Turismo regenerativo", text: "Categoria emergente, viajantes premium dispostos a pagar por experiências com pegada positiva mensurável." },
-          { index: "03", title: "Narrativa Afro-indígena", text: "Subexplorada por veículos institucionais sérios. Demanda crescente por curadoria autêntica e ética." },
-          { index: "04", title: "Ponte UK ↔ BR", text: "Acesso a capital britânico e europeu via parceria 'Oh Look, It's a Parrot' (Stephen Willis)." },
+          "Bem-estar, educação e PI de streaming são, cada um isoladamente, mercados massivos. A Rota do Sol está na intersecção dos três.",
+        tam: [
+          { label: "Bem-Estar Global", value: "US$ 6,8 Tri" },
+          { label: "EdTech", value: "US$ 420 Bi" },
+          { label: "PI de Streaming", value: "US$ 1,1 Tri" },
+        ],
+        revenueTitle: "Projeção de receita, 5 anos",
+        revenue: [
+          { year: "Ano 1", value: 1.2 },
+          { year: "Ano 2", value: 4.8 },
+          { year: "Ano 3", value: 12.5 },
+          { year: "Ano 4", value: 28 },
+          { year: "Ano 5", value: 55 },
+        ],
+        revenueNote: "Valores em milhões de dólares (USD).",
+        ebitda: { label: "Margem EBITDA alvo até o Ano 5", value: "32%–41%" },
+      },
+      thesis: {
+        eyebrow: "03 · Tese de Investimento & Tração",
+        title: "A captação.",
+        ask: { label: "Captação alvo", value: "US$ 3,5 Mi", sub: "Seed / Series A" },
+        allocationTitle: "Uso dos recursos",
+        allocation: [
+          { label: "Produção de Conteúdo & PI", value: 35, color: "gold" },
+          { label: "Desenvolvimento de Produto & Cadeia de Suprimentos", value: 25, color: "teal" },
+          { label: "Tecnologia da Plataforma", value: 20, color: "terracotta" },
+          { label: "Distribuição Global & Licenciamento", value: 15, color: "blue" },
+          { label: "Operações", value: 5, color: "magenta" },
+        ],
+        tractionTitle: "Sinais de tração",
+        traction: [
+          "Presença internacional já ativa (rotadosol.uk)",
+          "Portfólio de PI proprietário em crescimento (filme, marca, acervo cultural)",
+          "Linha Apothecary em fase de protótipo",
+          "Liderança afro-indígena com acesso direto às comunidades",
         ],
       },
-      revenue: {
-        eyebrow: "02 · Modelo de receita",
-        titleA: "Cinco fluxos.",
-        titleB: "Um único alicerce.",
+      dataroom: {
+        eyebrow: "04 · Data Room & Próximos Passos",
+        title: "Vamos conversar.",
         paragraph:
-          "Diversificação é defesa estratégica. {gold:Cinco fluxos independentes} ancorados na mesma plataforma, se um cai, os outros sustentam o projeto enquanto o sistema se readequa.",
-        streams: [
-          { index: "01", tag: "B2C, alta margem", title: "Travessias", text: "Turismo experiencial premium com ticket elevado e capacidade de carga controlada." },
-          { index: "02", tag: "B2C, recorrência", title: "Farmácia Herbária Lore", text: "Linha de produtos naturais com público recorrente e canais próprios + B2B selecionado." },
-          { index: "03", tag: "B2B, contratos longos", title: "Parcerias ESG / CSR", text: "Empresas que precisam de impacto auditável compram pacotes plurianuais ancorados em métricas GRI." },
-          { index: "04", tag: "B2B / institucional", title: "Licenciamento de conteúdo", text: "Biblioteca Cultural licencia documentários e séries para plataformas, museus e instituições culturais." },
-          { index: "05", tag: "Operação local", title: "Estações Territoriais", text: "Cada estação opera receitas próprias (hospedagem, formação, consultoria) integradas à rede." },
-        ],
-        synthesis: {
-          label: "Síntese",
-          title: "Receita não-correlacionada com clima de mercado único.",
-          text: "B2C premium + B2B contratos longos + recorrência produtos + licenciamento institucional + operação local. Cada fluxo responde a um ciclo econômico distinto.",
-        },
-      },
-      scalability: {
-        eyebrow: "03 · Escalabilidade",
-        titleA: "Cresce sem",
-        titleB: "desfigurar.",
-        paragraph:
-          "Escala em projetos territoriais costuma desfazer o tecido cultural que sustenta o produto. Aqui, o oposto é desenhado: {green:cada novo nó fortalece a rede} sem custo proporcional.",
-        items: [
-          { title: "Modelo replicável", text: "Estação Territorial padronizada, playbook operacional, financeiro e cultural reaproveitado em cada nova frente." },
-          { title: "Custo marginal decrescente", text: "A plataforma digital absorve novos territórios sem custo proporcional. Cada nova estação acrescenta receita > custo." },
-          { title: "Efeito rede", text: "Cada nova comunidade conectada amplia o acervo cultural, o estoque botânico e a oferta de travessias." },
-          { title: "Salto internacional", text: "Ponte UK abre o mercado europeu sem necessidade de presença física inicial, captação remota com entrega no Brasil." },
-        ],
-      },
-      esg: {
-        eyebrow: "04 · Impacto ESG",
-        titleA: "Impacto",
-        titleB: "auditável.",
-        titleC: "Publicado.",
-        paragraph:
-          "Toda métrica é {green:verificável por terceiros}, publicada em padrão GRI e atualizada periodicamente. Sem greenwashing, sem narrativa solta, só o que sustenta auditoria.",
-        columns: [
-          {
-            letter: "E",
-            color: "green",
-            title: "Ambiental",
-            items: [
-              "Hectares regenerados por território",
-              "Espécies recompostas e biodiversidade rastreada",
-              "Ciclos hídricos restaurados",
-              "Carbono evitado / sequestrado documentado",
-            ],
-          },
-          {
-            letter: "S",
-            color: "terracotta",
-            title: "Social",
-            items: [
-              "Renda territorial direta para guardiãs e guardiões",
-              "Representação Afro-indígena na governança",
-              "Famílias e comunidades beneficiadas (ledger aberto)",
-              "Acesso a saúde, educação e mobilidade pelas estações",
-            ],
-          },
-          {
-            letter: "G",
-            color: "gold",
-            title: "Governança",
-            items: [
-              "Conselho misto com veto ético comunitário",
-              "Métricas auditáveis em padrão GRI",
-              "Verificação por terceiros e transparência financeira",
-              "Política de bioprospecção e consentimento livre, prévio e informado",
-            ],
-          },
-        ],
-        note: "Reporte alinhado ao Global Reporting Initiative (GRI). Plano de auditoria por entidade independente em construção, com publicação semestral via Portal ESG.",
-      },
-      roadmap: {
-        eyebrow: "05 · Roadmap",
-        titleA: "Cinco anos.",
-        titleB: "Cinco marcos.",
-        paragraph:
-          "Calendário público de execução. Cada marco tem {gold:entregáveis observáveis} e indicadores próprios, investidores acompanham progresso sem depender de relatórios fechados.",
-        milestones: [
-          { index: "01", period: "2026 · S1", title: "Fundação institucional", text: "Lançamento da plataforma multilíngue (PT · ES · EN), constituição do conselho e abertura do Portal ESG v1.", status: "Em andamento", color: "gold" },
-          { index: "02", period: "2026 · S2", title: "Primeira Estação Territorial", text: "Estação-piloto operacional no Brasil com travessias-piloto e protocolo replicável documentado.", status: "Próximo", color: "gold-outline" },
-          { index: "03", period: "2027", title: "Comercial, Farmácia Lore", text: "Lançamento da primeira linha botânica com diligência ANVISA concluída e canal de venda direto.", status: "Planejado", color: "terracotta" },
-          { index: "04", period: "2028", title: "Escala internacional", text: "Operação UK ativa, entrada no mercado europeu via licenciamento e parcerias ESG plurianuais.", status: "Planejado", color: "terracotta-outline" },
-          { index: "05", period: "2029-30", title: "Rede LATAM", text: "Implantação progressiva de Estações pela América Latina (Colômbia → Peru → Equador → Bolívia) sob mesmo playbook.", status: "Visão", color: "muted" },
-        ],
-      },
-      partners: {
-        eyebrow: "05 · Investidores & Parcerias",
-        titleA: "Onde a Rota encontra",
-        titleB: "o mundo.",
-        paragraph:
-          "Uma área dedicada a patrocinadores, editais, imprensa, parceiros internacionais e captação. Aqui apresentamos a Rota do Sol como ela é: projeto cultural internacional, com governança clara, métricas reais e uma agenda ESG que não é cosmética, é operacional.",
-        columns: [
-          { title: "Patrocinadores", text: "Marcas que querem ancorar capital em impacto verificável." },
-          { title: "Editais", text: "Programas públicos e fundações com critérios técnicos e ESG." },
-          { title: "Imprensa", text: "Jornalismo cultural, ambiental e de inovação social." },
-          { title: "Parceiros internacionais", text: "Organizações UK · UE · LATAM em reciprocidade ética." },
-          { title: "Captação", text: "Capital paciente, blended finance e doação institucional." },
-        ],
-      },
-      expansion: {
-        eyebrow: "10 · Expansão",
-        titleA: "De onde",
-        titleB: "para onde",
-        titleC: "a rota cresce.",
-        paragraph:
-          "Expansão por núcleos, Estações da Rota, não por franchising. Cada nova base passa por seis meses de imersão antes de operar.",
-        items: [
-          { year: "2026", status: "Em curso", title: "Consolidação BR", text: "Três estações ativas no Brasil; primeira tese aberta para parceiros institucionais.", color: "terracotta" },
-          { year: "2027", status: "Planejado", title: "Ponte UK ativa", text: "Operação contínua entre Bristol/Londres e Brasília. Eventos culturais, captação recorrente, embaixadores institucionais.", color: "gold" },
-          { year: "2028", status: "Planejado", title: "Entrada LATAM", text: "Primeira estação na Colômbia, abertura da ponte com a rede Afro-indígena latino-americana. Replicação supervisionada do playbook.", color: "gold" },
-          { year: "2029", status: "Visão", title: "Rede regional", text: "Peru e Equador como próximos nós. Início de programa formal de capacitação de guardiãs.", color: "terracotta" },
-          { year: "2030", status: "Visão", title: "Escala ética", text: "Cinco estações por LATAM operando com indicadores comparáveis. Relatório anual público.", color: "green" },
-        ],
-      },
-      governance: {
-        eyebrow: "11 · Governança",
-        titleA: "Quem decide.",
-        titleB: "Com quem. Por quê.",
-        paragraph:
-          "Governança não é organograma, é prática de decisão. A Rota do Sol opera com três órgãos articulados e mecanismos formais de prestação de contas.",
-        bodies: [
-          { label: "Decisão estratégica", color: "terracotta", title: "Guardiania", text: "Liderada por Neta Honorata Maíta. Define direção, valida acordos e responde pela integridade institucional do projeto." },
-          { label: "Voto consultivo obrigatório", color: "gold", title: "Conselho das Comunidades", text: "Representantes eleitos por cada comunidade parceira. Voto sobre roteiros, calendário, uso de imagem e prioridades de aporte." },
-          { label: "Supervisão técnica e ética", color: "green", title: "Conselho de Parcerias", text: "Mentores institucionais (jurídico, ESG, antropologia, captação). Reuniões trimestrais; ata pública para parceiros aportantes." },
-        ],
-        compliance: {
-          label: "◆ Compliance",
-          leftItems: [
-            "Política antifraude, antissuborno e antilavagem",
-            "Canal de integridade confidencial: rotadosolestacaobr@gmail.com",
-            "Demonstrativos financeiros auditados anualmente",
-          ],
-          rightItems: [
-            "Tolerância zero a trabalho infantil e análogo à escravidão",
-            "Conformidade LGPD · GDPR · UK GDPR",
-          ],
+          "Esta área é para fundos, family offices e parceiros estratégicos avaliando a rodada. Solicite acesso para revisar o deck completo, o modelo financeiro e a estrutura jurídica.",
+        ctaTeaser: "Baixar Executive Teaser (PDF)",
+        ctaDataRoom: "Solicitar Acesso ao Data Room",
+        ctaSchedule: "Agendar Reunião com os Fundadores",
+        form: {
+          name: "Nome completo",
+          fund: "Fundo / Empresa",
+          email: "E-mail",
+          submit: "Solicitar acesso",
+          note: "Retornaremos por e-mail em até 2 dias úteis.",
         },
       },
     },
@@ -1773,160 +1619,83 @@ export const content = {
       },
     },
     investors: {
+      hero: {
+        eyebrow: "Serie A · Expansión Global",
+        headline: "Invirtiendo en la Infraestructura de la Memoria Cultural:",
+        headlineHighlight: "Un Ecosistema Multi-Plataforma de PI y Bienestar",
+        subheadline:
+          "Un puente entre la inteligencia ancestral latinoamericana, la ciencia moderna y la narrativa cinematográfica.",
+        videoLabel: "Ver el teaser",
+        videoNote: "Teaser de 2 minutos para inversores · próximamente",
+      },
+      pillars: {
+        eyebrow: "01 · El Ecosistema de Negocio",
+        titleA: "Cuatro pilares.",
+        titleB: "Un motor de PI.",
+        paragraph:
+          "Rota do Sol no es un producto único, es un ecosistema interconectado donde cultura, ciencia, educación y comercio se potencian mutuamente.",
+        items: [
+          { index: "01", title: "PI Cinematográfica", subtitle: "Universo Neta", text: "Películas y series que construyen un universo cinematográfico propio arraigado en narrativas afroindígenas, expandiéndose hacia streaming y formatos licenciados." },
+          { index: "02", title: "Ciencia Herbal & Botica", subtitle: "Línea física de productos", text: "Una línea física de productos botánicos de bienestar, uniendo el conocimiento ancestral de las plantas con la ciencia moderna de formulación." },
+          { index: "03", title: "EdTech & Plataforma", subtitle: "Cursos y certificaciones", text: "Cursos, certificaciones y una plataforma digital que enseña conocimiento ancestral junto a la ciencia orgánica, construida para alcance global." },
+          { index: "04", title: "Licenciamiento & Expansión Global", subtitle: "Marca y alianzas", text: "Licenciamiento de marca para museos, socios de salud y educación, extendiendo la PI a nuevos mercados y formatos." },
+        ],
+      },
       market: {
-        eyebrow: "01 · Oportunidad de mercado",
-        titleA: "Dónde se posiciona",
-        titleB: "la Ruta.",
+        eyebrow: "02 · Oportunidad de Mercado & Financiero",
+        title: "Una convergencia de categorías.",
         paragraph:
-          "Cuatro vectores convergen ahora, {terracotta:capital de impacto}, {terracotta:turismo regenerativo}, {terracotta:narrativa afroindígena} y puente UK ↔ BR. Rota do Sol está posicionada en la intersección de los cuatro.",
-        cards: [
-          { index: "01", title: "Capital de impacto", text: "Crecimiento global anual de dos dígitos en fondos con tesis de regeneración / clima / inclusión social." },
-          { index: "02", title: "Turismo regenerativo", text: "Categoría emergente, viajeros premium dispuestos a pagar por experiencias con huella positiva medible." },
-          { index: "03", title: "Narrativa afroindígena", text: "Subexplorada por vehículos institucionales serios. Demanda creciente de curaduría auténtica y ética." },
-          { index: "04", title: "Puente UK ↔ BR", text: "Acceso a capital británico y europeo vía la alianza 'Oh Look, It's a Parrot' (Stephen Willis)." },
+          "Bienestar, educación y PI de streaming son, cada uno por separado, mercados masivos. Rota do Sol está en la intersección de los tres.",
+        tam: [
+          { label: "Bienestar Global", value: "US$ 6,8 Bill" },
+          { label: "EdTech", value: "US$ 420 Mil M" },
+          { label: "PI de Streaming", value: "US$ 1,1 Bill" },
+        ],
+        revenueTitle: "Proyección de ingresos, 5 años",
+        revenue: [
+          { year: "Año 1", value: 1.2 },
+          { year: "Año 2", value: 4.8 },
+          { year: "Año 3", value: 12.5 },
+          { year: "Año 4", value: 28 },
+          { year: "Año 5", value: 55 },
+        ],
+        revenueNote: "Cifras en millones de dólares (USD).",
+        ebitda: { label: "Margen EBITDA objetivo al Año 5", value: "32%–41%" },
+      },
+      thesis: {
+        eyebrow: "03 · Tesis de Inversión & Tracción",
+        title: "La captación.",
+        ask: { label: "Captación objetivo", value: "US$ 3,5 M", sub: "Seed / Series A" },
+        allocationTitle: "Uso de los fondos",
+        allocation: [
+          { label: "Producción de Contenido & PI", value: 35, color: "gold" },
+          { label: "Desarrollo de Producto & Cadena de Suministro", value: 25, color: "teal" },
+          { label: "Tecnología de Plataforma", value: 20, color: "terracotta" },
+          { label: "Distribución Global & Licenciamiento", value: 15, color: "blue" },
+          { label: "Operaciones", value: 5, color: "magenta" },
+        ],
+        tractionTitle: "Señales de tracción",
+        traction: [
+          "Presencia internacional ya activa (rotadosol.uk)",
+          "Portafolio de PI propio en crecimiento (película, marca, archivo cultural)",
+          "Línea Apothecary en fase de prototipo",
+          "Liderazgo afroindígena con acceso directo a las comunidades",
         ],
       },
-      revenue: {
-        eyebrow: "02 · Modelo de ingresos",
-        titleA: "Cinco flujos.",
-        titleB: "Un único cimiento.",
+      dataroom: {
+        eyebrow: "04 · Data Room & Próximos Pasos",
+        title: "Hablemos.",
         paragraph:
-          "La diversificación es defensa estratégica. {gold:Cinco flujos independientes} anclados en la misma plataforma, si uno cae, los otros sostienen el proyecto mientras el sistema se reajusta.",
-        streams: [
-          { index: "01", tag: "B2C, alto margen", title: "Travesías", text: "Turismo experiencial premium con ticket elevado y capacidad de carga controlada." },
-          { index: "02", tag: "B2C, recurrencia", title: "Farmacia Herbal Lore", text: "Línea de productos naturales con público recurrente y canales propios + B2B seleccionado." },
-          { index: "03", tag: "B2B, contratos largos", title: "Alianzas ESG / RSC", text: "Empresas que necesitan impacto auditable compran paquetes plurianuales anclados en métricas GRI." },
-          { index: "04", tag: "B2B / institucional", title: "Licenciamiento de contenido", text: "La Biblioteca Cultural licencia documentales y series a plataformas, museos e instituciones culturales." },
-          { index: "05", tag: "Operación local", title: "Estaciones Territoriales", text: "Cada estación opera ingresos propios (alojamiento, formación, consultoría) integrados a la red." },
-        ],
-        synthesis: {
-          label: "Síntesis",
-          title: "Ingresos no correlacionados con un único clima de mercado.",
-          text: "B2C premium + contratos B2B largos + recurrencia de productos + licenciamiento institucional + operación local. Cada flujo responde a un ciclo económico distinto.",
-        },
-      },
-      scalability: {
-        eyebrow: "03 · Escalabilidad",
-        titleA: "Crece sin",
-        titleB: "desfigurar.",
-        paragraph:
-          "La escala en proyectos territoriales suele deshacer el tejido cultural que sostiene el producto. Aquí, se diseña lo contrario: {green:cada nuevo nodo fortalece la red} sin costo proporcional.",
-        items: [
-          { title: "Modelo replicable", text: "Estación Territorial estandarizada, playbook operativo, financiero y cultural reutilizado en cada nuevo frente." },
-          { title: "Costo marginal decreciente", text: "La plataforma digital absorbe nuevos territorios sin costo proporcional. Cada nueva estación suma ingreso > costo." },
-          { title: "Efecto red", text: "Cada nueva comunidad conectada amplía el acervo cultural, el stock botánico y la oferta de travesías." },
-          { title: "Salto internacional", text: "El puente UK abre el mercado europeo sin necesidad de presencia física inicial, captación remota con entrega en Brasil." },
-        ],
-      },
-      esg: {
-        eyebrow: "04 · Impacto ESG",
-        titleA: "Impacto",
-        titleB: "auditable.",
-        titleC: "Publicado.",
-        paragraph:
-          "Cada métrica es {green:verificable por terceros}, publicada en formato GRI y actualizada periódicamente. Sin greenwashing, sin narrativa suelta, solo lo que resiste una auditoría.",
-        columns: [
-          {
-            letter: "E",
-            color: "green",
-            title: "Ambiental",
-            items: [
-              "Hectáreas regeneradas por territorio",
-              "Especies recuperadas y biodiversidad rastreada",
-              "Ciclos hídricos restaurados",
-              "Carbono evitado / secuestrado documentado",
-            ],
-          },
-          {
-            letter: "S",
-            color: "terracotta",
-            title: "Social",
-            items: [
-              "Ingreso territorial directo para guardianas y guardianes",
-              "Representación afroindígena en la gobernanza",
-              "Familias y comunidades beneficiadas (libro abierto)",
-              "Acceso a salud, educación y movilidad a través de las estaciones",
-            ],
-          },
-          {
-            letter: "G",
-            color: "gold",
-            title: "Gobernanza",
-            items: [
-              "Consejo mixto con veto ético comunitario",
-              "Métricas auditables en formato GRI",
-              "Verificación por terceros y transparencia financiera",
-              "Política de bioprospección y consentimiento libre, previo e informado",
-            ],
-          },
-        ],
-        note: "Reporte alineado con el Global Reporting Initiative (GRI). Plan de auditoría por entidad independiente en construcción, con publicación semestral vía el Portal ESG.",
-      },
-      roadmap: {
-        eyebrow: "05 · Hoja de ruta",
-        titleA: "Cinco años.",
-        titleB: "Cinco hitos.",
-        paragraph:
-          "Un calendario público de ejecución. Cada hito tiene {gold:entregables observables} e indicadores propios, los inversores siguen el progreso sin depender de informes cerrados.",
-        milestones: [
-          { index: "01", period: "2026 · S1", title: "Fundación institucional", text: "Lanzamiento de la plataforma multilingüe (PT · ES · EN), constitución del consejo y apertura del Portal ESG v1.", status: "En curso", color: "gold" },
-          { index: "02", period: "2026 · S2", title: "Primera Estación Territorial", text: "Estación piloto operativa en Brasil con travesías piloto y protocolo replicable documentado.", status: "Próximo", color: "gold-outline" },
-          { index: "03", period: "2027", title: "Comercial, Farmacia Lore", text: "Lanzamiento de la primera línea botánica con diligencia ANVISA concluida y canal de venta directo.", status: "Planeado", color: "terracotta" },
-          { index: "04", period: "2028", title: "Escala internacional", text: "Operación UK activa, entrada al mercado europeo vía licenciamiento y alianzas ESG plurianuales.", status: "Planeado", color: "terracotta-outline" },
-          { index: "05", period: "2029-30", title: "Red LATAM", text: "Implantación progresiva de Estaciones por América Latina (Colombia → Perú → Ecuador → Bolivia) bajo el mismo playbook.", status: "Visión", color: "muted" },
-        ],
-      },
-      partners: {
-        eyebrow: "05 · Inversores y Alianzas",
-        titleA: "Dónde la Ruta encuentra",
-        titleB: "al mundo.",
-        paragraph:
-          "Un área dedicada a patrocinadores, convocatorias, prensa, socios internacionales y captación. Aquí presentamos Rota do Sol tal cual es: proyecto cultural internacional, con gobernanza clara, métricas reales y una agenda ESG que no es cosmética, es operativa.",
-        columns: [
-          { title: "Patrocinadores", text: "Marcas que quieren anclar capital en impacto verificable." },
-          { title: "Convocatorias", text: "Programas públicos y fundaciones con criterios técnicos y ESG." },
-          { title: "Prensa", text: "Periodismo cultural, ambiental y de innovación social." },
-          { title: "Socios internacionales", text: "Organizaciones UK · UE · LATAM en reciprocidad ética." },
-          { title: "Captación", text: "Capital paciente, blended finance y donación institucional." },
-        ],
-      },
-      expansion: {
-        eyebrow: "10 · Expansión",
-        titleA: "De dónde",
-        titleB: "hacia dónde",
-        titleC: "crece la ruta.",
-        paragraph:
-          "Expansión por núcleos, Estaciones de la Ruta, no por franquicia. Cada nueva base pasa por seis meses de inmersión antes de operar.",
-        items: [
-          { year: "2026", status: "En curso", title: "Consolidación BR", text: "Tres estaciones activas en Brasil; primera tesis abierta a socios institucionales.", color: "terracotta" },
-          { year: "2027", status: "Planeado", title: "Puente UK activo", text: "Operación continua entre Bristol/Londres y Brasilia. Eventos culturales, captación recurrente, embajadores institucionales.", color: "gold" },
-          { year: "2028", status: "Planeado", title: "Entrada LATAM", text: "Primera estación en Colombia, apertura del puente con la red afroindígena latinoamericana. Replicación supervisada del playbook.", color: "gold" },
-          { year: "2029", status: "Visión", title: "Red regional", text: "Perú y Ecuador como próximos nodos. Inicio de un programa formal de capacitación de guardianas.", color: "terracotta" },
-          { year: "2030", status: "Visión", title: "Escala ética", text: "Cinco estaciones por LATAM operando con indicadores comparables. Informe anual público.", color: "green" },
-        ],
-      },
-      governance: {
-        eyebrow: "11 · Gobernanza",
-        titleA: "Quién decide.",
-        titleB: "Con quién. Por qué.",
-        paragraph:
-          "La gobernanza no es un organigrama, es práctica de decisión. Rota do Sol opera con tres órganos articulados y mecanismos formales de rendición de cuentas.",
-        bodies: [
-          { label: "Decisión estratégica", color: "terracotta", title: "Guardiania", text: "Liderada por Neta Honorata Maíta. Define la dirección, valida acuerdos y responde por la integridad institucional del proyecto." },
-          { label: "Voto consultivo obligatorio", color: "gold", title: "Consejo de las Comunidades", text: "Representantes elegidos por cada comunidad aliada. Voto sobre itinerarios, calendario, uso de imagen y prioridades de aporte." },
-          { label: "Supervisión técnica y ética", color: "green", title: "Consejo de Alianzas", text: "Mentores institucionales (legal, ESG, antropología, captación). Reuniones trimestrales; acta pública para socios aportantes." },
-        ],
-        compliance: {
-          label: "◆ Cumplimiento",
-          leftItems: [
-            "Política antifraude, antisoborno y antilavado",
-            "Canal de integridad confidencial: rotadosolestacaobr@gmail.com",
-            "Estados financieros auditados anualmente",
-          ],
-          rightItems: [
-            "Tolerancia cero al trabajo infantil y análogo a la esclavitud",
-            "Cumplimiento LGPD · GDPR · UK GDPR",
-          ],
+          "Esta área es para fondos, family offices y socios estratégicos evaluando la ronda. Solicite acceso para revisar el deck completo, el modelo financiero y la estructura legal.",
+        ctaTeaser: "Descargar Executive Teaser (PDF)",
+        ctaDataRoom: "Solicitar Acceso al Data Room",
+        ctaSchedule: "Agendar Reunión con los Fundadores",
+        form: {
+          name: "Nombre completo",
+          fund: "Fondo / Empresa",
+          email: "Correo electrónico",
+          submit: "Solicitar acceso",
+          note: "Responderemos por correo en un plazo de 2 días hábiles.",
         },
       },
     },
