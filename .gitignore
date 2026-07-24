@@ -43,3 +43,8 @@ next-env.d.ts
 # editor
 .vscode/
 .idea/
+
+# local-only docs (not meant to be public in the repo)
+/AGENTS.md
+/CLAUDE.md
+/README.md
